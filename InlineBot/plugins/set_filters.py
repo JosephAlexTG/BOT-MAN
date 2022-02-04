@@ -1,6 +1,3 @@
-# Copyright (C) @CodeXBotz - All Rights Reserved
-# Licensed under GNU General Public License as published by the Free Software Foundation
-# Written by Shahsad Kolathur <shahsadkpklr@gmail.com>, June 2021
 
 import io
 import re
@@ -27,7 +24,6 @@ from InlineBot.database import (
     get_all_filters
 )
 from InlineBot import FILTER_COMMAND, DELETE_COMMAND
-
 @CodeXBotz.on_message(filters.command(FILTER_COMMAND) & filters.admins)
 async def new_filter(client: CodeXBotz, message: Message):
 
@@ -217,7 +213,7 @@ async def new_filter(client: CodeXBotz, message: Message):
             )
     except Exception as a:
         try:
-            await message.reply(text = f"<b>❌ Error</b>\n\n{str(a)}\n\n<i>Join @CodeXBotzSupport for Support</i>")
+            await message.reply(text = f"<b>❌ Error</b>\n\n{str(a)}\n\n<i>Join @MJBOTZSUPPORT for Support</i>")
         except:
             pass
         return
