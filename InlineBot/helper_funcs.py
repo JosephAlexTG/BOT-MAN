@@ -1,6 +1,3 @@
-# Copyright (C) @CodeXBotz - All Rights Reserved
-# Licensed under GNU General Public License as published by the Free Software Foundation
-# Written by Shahsad Kolathur <shahsadkpklr@gmail.com>, June 2021
 
 import re
 import os
@@ -164,7 +161,6 @@ def make_dict(data_list : List[dict], keywords : List[str]):
 
         new_id = str(uuid.uuid4())
         old_id = data_list[i]['_id']
-
         new_data = {'_id': new_id}
         new_data['text'] = data_list[i]['text']
         new_data['reply'] = data_list[i]['reply']
