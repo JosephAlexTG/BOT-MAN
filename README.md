@@ -1,26 +1,4 @@
-#                    Inline-Filter-Bot
-
-<p align="center">
-  <a href="https://www.python.org">
-    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
-  </a>
-  <a href="https://t.me/CodeXBotz">
-    <img src="https://github.com/CodeXBotz/PyrogramGenStr/blob/main/resources/madebycodex-badge.svg" width="250">
-  </a><br>
-  <a href="https://t.me/CodeXBotz">
-    &nbsp;<img src="https://img.shields.io/badge/Code%20%F0%9D%95%8F%20Botz-Channel-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
-  </a>
-  <a href="https://t.me/codexbotzsupport">
-    &nbsp;<img src="https://img.shields.io/badge/Code%20%F0%9D%95%8F%20Botz-Group-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
-  </a>
-  <br>
-  <a href="https://github.com/CodeXBotz/Inline-Filter-Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/CodeXBotz/Inline-Filter-Bot?style=social">
-  </a>
-  <a href="https://github.com/CodeXBotz/Inline-Filter-Bot/fork">
-    <img src="https://img.shields.io/github/forks/CodeXBotz/Inline-Filter-Bot?label=Fork&style=social">
-  </a>  
-</p>
+#                    BOTMAN
 
 A Telegram Bot for filter in Inline
 
@@ -33,20 +11,29 @@ A Telegram Bot for filter in Inline
 - Import and Export feature (allows to copy filters from one inline filter bot to another)
 - Custom Start Message, filter adding-deleting command
 
-## DEMO BOT
-<a href="https://t.me/InlineSaverXbot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
+#### Deploy 
 
-### Installation
-#### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
+<details><summary><b>Deploy To Heroku</b></summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/JosephAlexTG/Inline-Filter-Bot">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
+</details>
 
-#### Deploy in your VPS
+<details>
+  <summary><b>Deploy To VPS</b></summary>
+  </br>
+  
 ````bash
-git clone https://github.com/CodeXBotz/Inline-Filter-Bot
+git clone https://github.com/JosephAlexTG/Inline-Filter-Bot
 cd Inline-Filter-Bot
 pip3 install -r requirements.txt
 python3 InlineBot
 ````
+</details>
+
 ##
 ### Special Commands
 
@@ -85,15 +72,9 @@ python3 InlineBot
 * `{username}` Username of the User
 
 ## Support   
-Join Our [Telegram Group](https://www.telegram.dog/codexbotzsupport) For Support/Assistance And Our [Channel](https://www.telegram.dog/codexbotz) For Updates.   
+Join Our [Telegram Group](https://www.telegram.dog/MJBOTZSUPPORT) For Support/Assistance And Our [Channel](https://www.telegram.dog/MJBOTZ) For Updates.   
    
 Report Bugs, Give Feature Requests There..   
-
-### Credits
-
-- Thanks to [Dan](https://github.com/delivrance) for His Awsome [Libary](https://github.com/pyrogram/pyrogram)
-- Thanks to [Mahesh](https://github.com/Mahesh0253) for this [Repo](https://github.com/Mahesh0253/Media-Search-bot)
-- Thanks to [๓คгςยร](https://github.com/prgofficial) and [ᎫᎪᏟᏦ](https://github.com/Jack-of-tg) for [Unlimited Filter Repo](https://github.com/TroJanzHEX/Unlimited-Filter-Bot)
 
 ### Licence
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
@@ -106,4 +87,4 @@ published by the Free Software Foundation, either version 3 of the License, or
 
 ##
 
-   **Star this Repo if you Liked it ⭐⭐⭐**
+   **THANKS**
